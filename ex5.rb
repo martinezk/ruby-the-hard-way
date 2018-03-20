@@ -6,7 +6,7 @@ eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
 in_centimeters = height * 2.54
-#added to_i because the result was long
+
 in_kilograms = weight * 2.2
 
 puts "Let's talk about #{name}."
@@ -18,5 +18,5 @@ puts "His teeth are usually #{teeth} depending on the coffee."
 
 # this line is tricky, try to get it exactly right
 puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
-
+#added to_i because the result was long
 puts "Also, for the rest of the world, he weighs #{in_kilograms.to_i} in kilograms and is #{in_centimeters} tall in centimeters."
