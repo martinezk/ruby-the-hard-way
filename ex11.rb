@@ -12,4 +12,4 @@ weight = gets.chomp.to_i
 
 puts "So, you're #{age} years old, #{height} tall, and #{weight} heavy."
 
-puts "Your age, height and weight added together is #{age + height + weight}."
+puts "Your age, height and weight added together is #{age + height + weight}." 
