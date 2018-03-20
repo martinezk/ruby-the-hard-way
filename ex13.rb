@@ -23,6 +23,7 @@ puts "Your third variable is: #{third}"
 # WILL BE NO OUTPUT FOR THE FOURTH
 
 puts "What's your name? "
+# $stdin allows you to uses ARGV with gets.chomp
 name = $stdin.gets.chomp
 hobby = ARGV
 puts "Hi #{name}, do you like #{hobby}?"
