@@ -2,7 +2,7 @@
 # it shorter yet!
 from_file, to_file = ARGV
 
-open(to_file, 'w').write(open(from_file).read)
+open(to_file, 'w').write(open(from_file).read);open(to_file, 'w').close;open(from_file).close
 
 puts "Alright, all done."
 
