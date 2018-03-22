@@ -1,4 +1,4 @@
-#arguments to be passed in to the file when it is run
+#arguments to be passed in to the file when script is run
 from_file, to_file = ARGV
 
 #prints a string passing in the two files
