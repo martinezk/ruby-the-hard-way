@@ -1,4 +1,4 @@
-# declares a variable called types_of_people and sets it equal to 0
+# declares a variable called types_of_people and sets it equal to 10
 types_of_people = 10
 # sets varible x equal to a string and inserts the variable
 # types_of_people into the string
