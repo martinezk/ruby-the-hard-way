@@ -1,0 +1,78 @@
+What do you know so far?
+
+puts - prints items their own line
+print - prints items all on the same line
+
+string - data type in quotations
+comment - initiated by a '#' symbol, it will be ignored by ruby
+
+string interpolation - allows you to put a
+  placeholder within a string so that when the script runs
+  the placeholder is replaced with the value
+  ex. puts "Is the sandwich more than #{insert_value}?"
+
++  addition
+-  subtraction
+*  multiply
+/  division
+<  less than
+>  greater than
+<= less than equal
+>= greater than equal
+
+% - modulus (modulo operator) - finds the remainder
+  after division operation
+  ex. 80 % 2
+  => returns 0
+  ex. 80 % 2 == 0
+  => returns true
+  --it is a good way to test whether a number is even
+
+variable - a name for some value (not a data type)
+
+format string - allows you to create a string that takes
+  arguments, you need %{insert_value} to make it work
+
+Escape characters
+
+gets vs. gets.chomp vs. $stdin.gets.chomp
+
+to_i - change to an integer (whole number)
+to_f - changes to a float (decimal number (fraction))
+
+ARGV -
+
+File operations
+.read
+.open
+.close
+.truncate
+.write
+
+argument -
+
+return -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
